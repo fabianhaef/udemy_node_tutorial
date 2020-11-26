@@ -1,0 +1,126 @@
+:root {
+  --black: #111;
+  --medium-black: #191919;
+  --light-black: #222222;
+}
+
+html,
+body {
+  background-color: #191919;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: white;
+  margin: 50px auto 0 auto;
+  padding: 0px;
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+div {
+  background-color: var(--light-black);
+}
+
+.top-container {
+  background-color: var(--light-black);
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.django-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.personal-img {
+  margin-top: 120px;
+  border-radius: 25%;
+}
+
+.personal-description-text {
+  width: 25%;
+  margin: 0 auto 120px auto;
+}
+
+hr {
+  background-color: transparent;
+  height: 2px;
+  border-width: 0px;
+  border-top: 4px dotted white;
+  width: 10%;
+}
+
+.contact-me {
+  padding-bottom: 120px;
+}
+
+.btn {
+  margin-top: 210px;
+  background-color: #11999e;
+  border-radius: 5%;
+  width: 50%;
+  color: white;
+  padding: 4px 24px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding: 20px 0px 20px 0px;
+  background-color: #11999e;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 0px 8px 0px 8px;
+  color: white;
+}
+
+p {
+  margin: 20px;
+}
